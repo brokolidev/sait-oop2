@@ -7,10 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="393a98b4-e29c-4007-9b69-8faa53930a25" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lab1/Person.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.lab1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.lab1/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="393a98b4-e29c-4007-9b69-8faa53930a25" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +16,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/dev/sait/oop2-labs/lab1/lab1/obj/Debug/net8.0/lab1.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/dev/sait/oop2-labs/lab1/lab1/obj/Debug/net8.0/lab1.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -42,9 +44,9 @@
   },
   &quot;keyToStringList&quot;: {
     &quot;rider.external.source.directories&quot;: [
-      &quot;/Users/brokoli/Library/Application Support/JetBrains/Rider2023.3/resharper-host/DecompilerCache&quot;,
-      &quot;/Users/brokoli/Library/Application Support/JetBrains/Rider2023.3/resharper-host/SourcesCache&quot;,
-      &quot;/Users/brokoli/.local/share/Symbols/src&quot;
+      &quot;C:\\Users\\brokoli\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\brokoli\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\brokoli\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
 }</component>
@@ -78,13 +80,46 @@
       <updated>1705591122114</updated>
       <workItem from="1705591123272" duration="1399000" />
       <workItem from="1705870754882" duration="959000" />
+      <workItem from="1705879426310" duration="76000" />
     </task>
+    <task id="LOCAL-00001" summary="delete demo from labs">
+      <option name="closed" value="true" />
+      <created>1705879441411</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705879441411</updated>
+    </task>
+    <task id="LOCAL-00002" summary="create relation class">
+      <option name="closed" value="true" />
+      <created>1705879478063</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705879478063</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="delete demo from labs" />
+    <MESSAGE value="create relation class" />
+    <option name="LAST_COMMIT_MESSAGE" value="create relation class" />
   </component>
 </project>

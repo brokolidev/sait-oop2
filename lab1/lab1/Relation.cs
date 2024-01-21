@@ -2,7 +2,9 @@ namespace lab1;
 
 public class Relation
 {
-    public enum RelationshipType
+    protected Relationships RelationshipType { get; set; }
+
+    public enum Relationships
     {
         Sister,
         Brother,

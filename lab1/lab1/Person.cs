@@ -2,12 +2,12 @@ namespace lab1;
 
 public class Person
 {
-    private int personId;
-    private string firstName;
-    private string lastName;
-    private string favoriteColour;
-    private int age;
-    private bool isWorking;
+    private int personId { get; set; }
+    public string firstName { get; set; }
+    private string lastName { get; set; }
+    private string favoriteColour { get; set; }
+    private int age { get; set; }
+    private bool isWorking { get; set; }
 
     protected string DisplayPersonInfo(
         int personId, string firstName, string lastName, 
