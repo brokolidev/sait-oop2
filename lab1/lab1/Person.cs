@@ -13,6 +13,26 @@ public class Person
         int personId, string firstName, string lastName, 
         string favoriteColour, int age, bool isWorking)
     {
-        return $"";
+        return $"{personId}: {firstName} {lastName}'s favorite color is {favoriteColour}";
+    }
+
+    protected void ChangeFavoriteColour()
+    {
+        this.favoriteColour = "White";
+    }
+
+    protected int GetAgeInTenYears()
+    {
+        return this.age + 10;
+    }
+
+    public override string ToString()
+    {
+        return $"PersonId: {this.personId}\n"
+            + $"FirstName: {this.firstName}\n"
+            + $"LastName: {this.lastName}\n"
+            + $"FavoriteColour: {this.favoriteColour}\n"
+            + $"Age: {this.age}\n"
+            + $"isWorking: {this.isWorking}";
     }
 }
