@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/brokoli/Dev/sait/oop2/labs/lab1/lab1.csproj": {}
+    "/Users/brokoli/Dev/sait/oop2/labs/lab1/lab1/lab1.csproj": {}
   },
   "projects": {
-    "/Users/brokoli/Dev/sait/oop2/labs/lab1/lab1.csproj": {
+    "/Users/brokoli/Dev/sait/oop2/labs/lab1/lab1/lab1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/brokoli/Dev/sait/oop2/labs/lab1/lab1.csproj",
+        "projectUniqueName": "/Users/brokoli/Dev/sait/oop2/labs/lab1/lab1/lab1.csproj",
         "projectName": "lab1",
-        "projectPath": "/Users/brokoli/Dev/sait/oop2/labs/lab1/lab1.csproj",
+        "projectPath": "/Users/brokoli/Dev/sait/oop2/labs/lab1/lab1/lab1.csproj",
         "packagesPath": "/Users/brokoli/.nuget/packages/",
-        "outputPath": "/Users/brokoli/Dev/sait/oop2/labs/lab1/obj/",
+        "outputPath": "/Users/brokoli/Dev/sait/oop2/labs/lab1/lab1/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/brokoli/.nuget/NuGet/NuGet.Config"
