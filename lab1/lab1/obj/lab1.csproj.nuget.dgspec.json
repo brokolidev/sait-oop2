@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\dev\\sait\\oop2\\lab1\\lab1\\lab1.csproj": {}
+    "C:\\dev\\sait\\oop2-labs\\lab1\\lab1\\lab1.csproj": {}
   },
   "projects": {
-    "C:\\dev\\sait\\oop2\\lab1\\lab1\\lab1.csproj": {
+    "C:\\dev\\sait\\oop2-labs\\lab1\\lab1\\lab1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\dev\\sait\\oop2\\lab1\\lab1\\lab1.csproj",
+        "projectUniqueName": "C:\\dev\\sait\\oop2-labs\\lab1\\lab1\\lab1.csproj",
         "projectName": "lab1",
-        "projectPath": "C:\\dev\\sait\\oop2\\lab1\\lab1\\lab1.csproj",
+        "projectPath": "C:\\dev\\sait\\oop2-labs\\lab1\\lab1\\lab1.csproj",
         "packagesPath": "C:\\Users\\brokoli\\.nuget\\packages\\",
-        "outputPath": "C:\\dev\\sait\\oop2\\lab1\\lab1\\obj\\",
+        "outputPath": "C:\\dev\\sait\\oop2-labs\\lab1\\lab1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
