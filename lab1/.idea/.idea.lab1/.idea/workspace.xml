@@ -7,7 +7,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="393a98b4-e29c-4007-9b69-8faa53930a25" name="Changes" comment="" />
+    <list default="true" id="393a98b4-e29c-4007-9b69-8faa53930a25" name="Changes" comment="change firstName in Person class to public">
+      <change afterPath="$PROJECT_DIR$/lab1/bin/Debug/net8.0/lab1.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab1/bin/Debug/net8.0/lab1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab1/bin/Debug/net8.0/lab1.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab1/bin/Debug/net8.0/lab1.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab1/bin/Debug/net8.0/lab1.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab1/obj/Debug/net8.0/apphost.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab1/obj/Debug/net8.0/lab1.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab1/obj/Debug/net8.0/lab1.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab1/obj/Debug/net8.0/lab1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab1/obj/Debug/net8.0/lab1.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab1/obj/Debug/net8.0/lab1.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab1/obj/Debug/net8.0/lab1.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab1/obj/Debug/net8.0/ref/lab1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab1/obj/Debug/net8.0/refint/lab1.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.lab1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.lab1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/Person.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/Relation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/Relation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/obj/Debug/net8.0/lab1.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/obj/Debug/net8.0/lab1.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1/obj/Debug/net8.0/lab1.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/obj/Debug/net8.0/lab1.AssemblyInfoInputs.cache" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +38,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/dev/sait/oop2-labs/lab1/lab1/obj/Debug/net8.0/lab1.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/dev/sait/oop2-labs/lab1/lab1/Relation.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/dev/sait/oop2-labs/lab1/lab1/obj/Debug/net8.0/lab1.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -25,46 +46,51 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2b8KANA6DUgf9ws8323HwEpj7a5" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Project.lab1.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Project.lab1.executor": "Run",
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\brokoli\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\brokoli\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\brokoli\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\brokoli\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\brokoli\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\brokoli\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="lab1" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/lab1/bin/Debug/net8.0/lab1.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab1/bin/Debug/net8.0" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="PROJECT_PATH" value="$PROJECT_DIR$/lab1.csproj" />
+      <option name="RUNTIME_TYPE" value="coreclr" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/lab1/lab1.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
       <option name="PROJECT_KIND" value="DotNetCore" />
-      <option name="PROJECT_TFM" value="" />
+      <option name="PROJECT_TFM" value="net8.0" />
       <method v="2">
         <option name="Build" />
       </method>
@@ -81,6 +107,7 @@
       <workItem from="1705591123272" duration="1399000" />
       <workItem from="1705870754882" duration="959000" />
       <workItem from="1705879426310" duration="76000" />
+      <workItem from="1705879655394" duration="2755000" />
     </task>
     <task id="LOCAL-00001" summary="delete demo from labs">
       <option name="closed" value="true" />
@@ -98,7 +125,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705879478063</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="change firstName in Person class to public">
+      <option name="closed" value="true" />
+      <created>1705879832707</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705879832707</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,9 +152,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="delete demo from labs" />
     <MESSAGE value="create relation class" />
-    <option name="LAST_COMMIT_MESSAGE" value="create relation class" />
+    <MESSAGE value="change firstName in Person class to public" />
+    <option name="LAST_COMMIT_MESSAGE" value="change firstName in Person class to public" />
   </component>
 </project>

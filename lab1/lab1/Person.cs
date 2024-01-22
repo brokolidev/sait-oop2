@@ -2,26 +2,36 @@ namespace lab1;
 
 public class Person
 {
-    private int personId { get; set; }
+    protected int personId { get; set; }
     public string firstName { get; set; }
-    private string lastName { get; set; }
-    private string favoriteColour { get; set; }
-    private int age { get; set; }
-    private bool isWorking { get; set; }
+    public string lastName { get; set; }
+    public string favoriteColour { get; set; }
+    public int age { get; set; }
+    public bool isWorking { get; set; }
 
-    protected string DisplayPersonInfo(
-        int personId, string firstName, string lastName, 
-        string favoriteColour, int age, bool isWorking)
+    public Person(int personId, string firstName, string lastName, string favoriteColour, int age, bool isWorking)
     {
-        return $"{personId}: {firstName} {lastName}'s favorite color is {favoriteColour}";
+        this.personId = personId;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.favoriteColour = favoriteColour;
+        this.age = age;
+        this.isWorking = isWorking;
     }
 
-    protected void ChangeFavoriteColour()
+    public void DisplayPersonInfo()
+    {
+        Console.WriteLine($"{this.personId}: {this.firstName} " +
+                          $"{this.lastName}'s favorite colour is " +
+                          $"{this.favoriteColour}");
+    }
+
+    public void ChangeFavoriteColour()
     {
         this.favoriteColour = "White";
     }
 
-    protected int GetAgeInTenYears()
+    public int GetAgeInTenYears()
     {
         return this.age + 10;
     }
