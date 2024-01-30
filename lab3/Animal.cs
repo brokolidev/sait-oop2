@@ -6,6 +6,10 @@ public abstract class Animal
     public string Colour { get; set; }
     public int Age { get; set; }
 
+    protected Animal()
+    {
+    }
+
     public void SetName(string name)
     {
         this.Name = name;
