@@ -14,11 +14,9 @@ class Program
         List<Wages> wagesList = [];
         List<Salaried> salariedList = [];
         List<PartTime> partTimesList = [];
-        int i = 0;
         
-        foreach (string data in File.ReadLines("/Users/brokoli/Dev/sait/oop2/labs/lab2/res/employees.txt"))
+        foreach (string data in File.ReadLines("C:/dev/sait/oop2-labs/lab2/res/employees.txt"))
         {
-            i++;
             string[] parts = data.Split(":");
             
             string startLetter = parts[0][0].ToString().Trim();

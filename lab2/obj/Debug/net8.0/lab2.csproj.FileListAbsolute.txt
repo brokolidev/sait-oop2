@@ -1,0 +1,15 @@
+C:\dev\sait\oop2-labs\lab2\bin\Debug\net8.0\lab2.exe
+C:\dev\sait\oop2-labs\lab2\bin\Debug\net8.0\lab2.deps.json
+C:\dev\sait\oop2-labs\lab2\bin\Debug\net8.0\lab2.runtimeconfig.json
+C:\dev\sait\oop2-labs\lab2\bin\Debug\net8.0\lab2.dll
+C:\dev\sait\oop2-labs\lab2\bin\Debug\net8.0\lab2.pdb
+C:\dev\sait\oop2-labs\lab2\obj\Debug\net8.0\lab2.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\sait\oop2-labs\lab2\obj\Debug\net8.0\lab2.AssemblyInfoInputs.cache
+C:\dev\sait\oop2-labs\lab2\obj\Debug\net8.0\lab2.AssemblyInfo.cs
+C:\dev\sait\oop2-labs\lab2\obj\Debug\net8.0\lab2.csproj.CoreCompileInputs.cache
+C:\dev\sait\oop2-labs\lab2\obj\Debug\net8.0\lab2.sourcelink.json
+C:\dev\sait\oop2-labs\lab2\obj\Debug\net8.0\lab2.dll
+C:\dev\sait\oop2-labs\lab2\obj\Debug\net8.0\refint\lab2.dll
+C:\dev\sait\oop2-labs\lab2\obj\Debug\net8.0\lab2.pdb
+C:\dev\sait\oop2-labs\lab2\obj\Debug\net8.0\lab2.genruntimeconfig.cache
+C:\dev\sait\oop2-labs\lab2\obj\Debug\net8.0\ref\lab2.dll

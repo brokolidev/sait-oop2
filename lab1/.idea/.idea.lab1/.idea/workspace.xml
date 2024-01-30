@@ -7,25 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="393a98b4-e29c-4007-9b69-8faa53930a25" name="Changes" comment="change firstName in Person class to public">
-      <change afterPath="$PROJECT_DIR$/lab1/bin/Debug/net8.0/lab1.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab1/bin/Debug/net8.0/lab1.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab1/bin/Debug/net8.0/lab1.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab1/bin/Debug/net8.0/lab1.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab1/bin/Debug/net8.0/lab1.runtimeconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab1/obj/Debug/net8.0/apphost.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab1/obj/Debug/net8.0/lab1.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab1/obj/Debug/net8.0/lab1.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab1/obj/Debug/net8.0/lab1.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab1/obj/Debug/net8.0/lab1.genruntimeconfig.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab1/obj/Debug/net8.0/lab1.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab1/obj/Debug/net8.0/lab1.sourcelink.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab1/obj/Debug/net8.0/ref/lab1.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab1/obj/Debug/net8.0/refint/lab1.dll" afterDir="false" />
+    <list default="true" id="393a98b4-e29c-4007-9b69-8faa53930a25" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.lab1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.lab1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/Person.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/Relation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/Relation.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab1/obj/Debug/net8.0/lab1.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/obj/Debug/net8.0/lab1.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab1/obj/Debug/net8.0/lab1.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/obj/Debug/net8.0/lab1.AssemblyInfoInputs.cache" afterDir="false" />
     </list>
@@ -60,11 +43,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -107,7 +92,8 @@
       <workItem from="1705591123272" duration="1399000" />
       <workItem from="1705870754882" duration="959000" />
       <workItem from="1705879426310" duration="76000" />
-      <workItem from="1705879655394" duration="2755000" />
+      <workItem from="1705879655394" duration="3911000" />
+      <workItem from="1706022217443" duration="106000" />
     </task>
     <task id="LOCAL-00001" summary="delete demo from labs">
       <option name="closed" value="true" />
@@ -133,7 +119,23 @@
       <option name="project" value="LOCAL" />
       <updated>1705879832707</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added required solutions">
+      <option name="closed" value="true" />
+      <created>1705882513881</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705882513881</updated>
+    </task>
+    <task id="LOCAL-00005" summary="removed lab0 folder">
+      <option name="closed" value="true" />
+      <created>1705882883663</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1705882883663</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +159,8 @@
     <MESSAGE value="delete demo from labs" />
     <MESSAGE value="create relation class" />
     <MESSAGE value="change firstName in Person class to public" />
-    <option name="LAST_COMMIT_MESSAGE" value="change firstName in Person class to public" />
+    <MESSAGE value="added required solutions" />
+    <MESSAGE value="removed lab0 folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed lab0 folder" />
   </component>
 </project>
