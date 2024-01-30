@@ -57,6 +57,7 @@ class Program
 
         double totalPayment = 0.0;
         Wages highestWageEmployee = new Wages();
+        Salaried lowestSalariedEmp = new Salaried();
         
         foreach (var employee in wagesList)
         {
@@ -72,6 +73,10 @@ class Program
         foreach (var employee in salariedList)
         {
             totalPayment += employee.GetPay();
+            if (lowestSalariedEmp.GetPay() == 0 || lowestSalariedEmp.GetPay() > employee.GetPay())
+            {
+                lowestSalariedEmp = employee;
+            }
         }
         
         foreach (var employee in partTimesList)
@@ -83,5 +88,18 @@ class Program
 
         Console.WriteLine($"The highest weelky pay for the wage employees : \n" +
                           $"{highestWageEmployee}\n");
+
+        Console.WriteLine($"The lowest salary for the salaried employees : \n" +
+                          $"{lowestSalariedEmp}\n");
+        
+        double percentageOfWage = (double)wagesList.Count / employeesList.Count;
+        Console.WriteLine($"Percentage of wage employee : {percentageOfWage * 100}%");
+        
+        double percentageOfPartTimer = (double)partTimesList.Count / employeesList.Count;
+        Console.WriteLine($"Percentage of wage employee : {percentageOfPartTimer * 100}%");
+        
+        double percentageOfSalaried = (double)salariedList.Count / employeesList.Count;
+        Console.WriteLine($"Percentage of wage employee : {percentageOfSalaried * 100}%");
+
     }
 }
