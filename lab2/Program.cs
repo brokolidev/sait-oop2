@@ -8,8 +8,6 @@ class Program
 {
     static void Main(string[] args)
     {
-
-        String line = "start";
         List<Employee> employeesList = [];
         List<Wages> wagesList = [];
         List<Salaried> salariedList = [];
@@ -65,7 +63,6 @@ class Program
             {
                 highestWageEmployee = employee;
             }
-            
         }
         
         foreach (var employee in salariedList)
