@@ -29,11 +29,15 @@ public class PartTime : Employee
 
     public double GetPay()
     {
-        return 0.0;
+        return rate * hours;
     }
 
     public override string ToString()
     {
-        return $"This is part times";
+        return $"This is a part timer. \n" +
+               $"ID: {base.Id} / Name: {base.Name} / Address: {base.Address} \n" +
+               $"Phone: {base.Phone} / Sin: {base.Sin} / Dob: {base.Dob} / " +
+               $"Department: {base.Dept} \n" +
+               $"Rate: {rate} / Hours : {hours} \n";
     }
 }

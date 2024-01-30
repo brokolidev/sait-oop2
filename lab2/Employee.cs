@@ -69,6 +69,9 @@ public class Employee
 
     public override string ToString()
     {
-        return $"String for Employee";
+        return $"This is an general employee. \n" +
+               $"ID: {id} / Name: {name} / Address: {address} \n" +
+               $"Phone: {Phone} / Sin: {sin} / Dob: {dob} / " +
+               $"Department: {dept} \n";
     }
 }

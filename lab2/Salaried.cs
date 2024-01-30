@@ -22,11 +22,15 @@ public class Salaried : Employee
 
     public double GetPay()
     {
-        return 0.0;
+        return salary;
     }
 
     public override string ToString()
     {
-        return $"This is Salaried";
+        return $"This is a salaried employee. \n" +
+               $"ID: {base.Id} / Name: {base.Name} / Address: {base.Address} \n" +
+               $"Phone: {base.Phone} / Sin: {base.Sin} / Dob: {base.Dob} / " +
+               $"Department: {base.Dept} \n" +
+               $"Salary: {salary} \n";
     }
 }
